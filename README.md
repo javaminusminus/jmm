@@ -1,6 +1,6 @@
 # Java--
 
-[![Build Status](https://travis-ci.org/ricallinson/jmm.svg?branch=master)](https://travis-ci.org/ricallinson/jmm)
+[![Build Status](https://travis-ci.org/javaminusminus/jmm.svg?branch=master)](https://travis-ci.org/javaminusminus/jmm)
 
 This project started life as a joke after having coffee with a fellow engineer. Java-- is taking Java in a different direction by using highly opinionated choices as to what should or should not be used from the language. Java-- is not a new language, it's just a collection of tools that let you work with Java in a different way.
 
@@ -8,7 +8,7 @@ This project started life as a joke after having coffee with a fellow engineer. 
 
 Using git, clone this repository into a directory named `~/.jmm`.
 
-    git clone git@github.com:ricallinson/jmm.git ~/.jmm
+    git clone git@github.com:javaminusminus/jmm.git ~/.jmm
 
 To activate jmm, you need to source it from your shell:
 
@@ -37,8 +37,8 @@ This example creates a Java-- workspace, gets the source code for a package, ins
 	mkdir ./jmmtest
 	cd ./jmmtest
 	jmm here .
-	jmm get github.com/ricallinson/jmmexample
-	jmm install ./src/github/com/ricallinson/jmmexample
+	jmm get github.com/javaminusminus/jmmexample
+	jmm install ./src/github/com/javaminusminus/jmmexample
 	jmmexample
 
 ## Help
@@ -59,7 +59,7 @@ Prints the values of all Java-- environment variables.
 
 Get a package from [github.com](https://github.com/) and copy its source into the current workspace.
 
-	jmm get github.com/ricallinson/jmmimporttest
+	jmm get github.com/javaminusminus/jmmimporttest
 
 ### jmm here
 
@@ -75,7 +75,7 @@ Determines if the current directory is part of a Java-- workspace. If it is the 
 
 Builds a `.jar` from the `.java` files in the given directory. A `.jar` named the same as the directory is created and placed in the `$JMMPATH/bin` directory. An executable to run the `.jar` is also created and placed in the `$JMMPATH/bin` directory. All imports are resolved to packages in the current workspace.
 
-	jmm install ./src/github/com/ricallinson/jmminstall
+	jmm install ./src/github/com/javaminusminus/jmminstall
 
 The following will install the current working directory.
 
@@ -85,13 +85,13 @@ The following will install the current working directory.
 
 Checks the given packages or files against the Java-- opinionated style. Note: The opinionated style is not complete yet.
 
-	jmm lint ./src/github/com/ricallinson/jmminstall
+	jmm lint ./src/github/com/javaminusminus/jmminstall
 
 ### jmm list
 
 List all packages under a given directory.
 
-	jmm list ./src/github/com/ricallinson/jmminstall
+	jmm list ./src/github/com/javaminusminus/jmminstall
 
 The following will list packages in the current working directory.
 
@@ -101,17 +101,17 @@ The following will list packages in the current working directory.
 
 Provide one or more `.java` files to run. The first file must have the main method. A `.jar` named the same as the first class files directory is created and placed in the `$JMMPATH/bin` directory. Note: this will overwrite an existing `.jar` if it has the same name.
 
-	jmm run ./src/github/com/ricallinson/jmmrun/RunClass.java ./src/github/com/ricallinson/jmmrun/OtherClass.java
+	jmm run ./src/github/com/javaminusminus/jmmrun/RunClass.java ./src/github/com/javaminusminus/jmmrun/OtherClass.java
 
 ### jmm test
 
 Tests in Java-- are identified by the postfix `_test` on a `.java` file. The class must have a main method and be in the same directory as the code it's testing or import the code it's testing. Test files are executed one at time in isolation from each other. All test files are excluded from a install.
 
-	jmm test ./src/github/com/ricallinson/jmmtest/TestClass_test.java
+	jmm test ./src/github/com/javaminusminus/jmmtest/TestClass_test.java
 
 Directories are tested recursively to allow packages to be tested with one command.
 
-	jmm test ./src/github/com/ricallinson/jmmtest
+	jmm test ./src/github/com/javaminusminus/jmmtest
 
 ### jmm version
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 source ../jmm.sh
-jmm install $JMMPATH/src/github/com/ricallinson/jmminstall
+jmm install $JMMPATH/src/github/com/javaminusminus/jmminstall
 data=$(jmminstall)
 if [ "$data" = "Hello world." ]; then
 	exit 0

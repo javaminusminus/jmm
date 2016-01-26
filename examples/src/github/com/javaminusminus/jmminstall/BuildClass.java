@@ -1,8 +1,8 @@
-package github.com.ricallinson.jmmimport;
+package github.com.javaminusminus.jmminstall;
 
-import github.com.ricallinson.jmminstall.sub.*;
+import github.com.javaminusminus.jmminstall.sub.*;
 
-class ImportClass {  
+public class BuildClass {  
     public static void main(String args[]) {
         OtherClass c = new OtherClass();
         System.out.println(c.msg());

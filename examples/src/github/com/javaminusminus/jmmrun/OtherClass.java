@@ -1,4 +1,4 @@
-package github.com.ricallinson.jmmrun;
+package github.com.javaminusminus.jmmrun;
 
 class OtherClass {  
     public String msg() {

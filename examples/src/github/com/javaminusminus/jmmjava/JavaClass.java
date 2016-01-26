@@ -1,4 +1,4 @@
-package github.com.ricallinson.jmmjava;
+package github.com.javaminusminus.jmmjava;
 
 import java.math.BigInteger;
 

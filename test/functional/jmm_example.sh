@@ -4,8 +4,8 @@ source ../jmm.sh
 mkdir ./jmmtest
 cd ./jmmtest
 jmm here .
-jmm get github.com/ricallinson/jmmexample
-jmm install ./src/github/com/ricallinson/jmmexample
+jmm get github.com/javaminusminus/jmmexample
+jmm install ./src/github/com/javaminusminus/jmmexample
 data=$(jmmexample)
 cd ..
 rm -rf ./jmmtest

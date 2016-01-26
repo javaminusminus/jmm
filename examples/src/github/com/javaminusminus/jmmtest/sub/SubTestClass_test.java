@@ -1,4 +1,4 @@
-package github.com.ricallinson.jmmtest.sub;
+package github.com.javaminusminus.jmmtest.sub;
 
 class SubTestClass_test {  
     public static void main(String args[]) {

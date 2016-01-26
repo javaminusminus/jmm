@@ -1,4 +1,4 @@
-package github.com.ricallinson.jmminstall.sub;
+package github.com.javaminusminus.jmminstall.sub;
 
 public class OtherClass {  
     public String msg() {

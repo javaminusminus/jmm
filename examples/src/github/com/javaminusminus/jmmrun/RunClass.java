@@ -1,8 +1,6 @@
-package github.com.ricallinson.jmminstall;
+package github.com.javaminusminus.jmmrun;
 
-import github.com.ricallinson.jmminstall.sub.*;
-
-public class BuildClass {  
+class RunClass {  
     public static void main(String args[]) {
         OtherClass c = new OtherClass();
         System.out.println(c.msg());

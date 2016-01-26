@@ -1,6 +1,6 @@
 #!/bin/bash
 source ../jmm.sh
-data=$(jmm install $JMMPATH/src/github/com/ricallinson/jmmillegal)
+data=$(jmm install $JMMPATH/src/github/com/javaminusminus/jmmillegal)
 if [ "$data" = "Illegal package: java.util.Date;" ]; then
 	exit 0
 fi

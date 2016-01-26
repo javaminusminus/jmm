@@ -1,4 +1,4 @@
-package github.com.ricallinson.jmmillegal;
+package github.com.javaminusminus.jmmillegal;
 
 import java.util.Date;
 

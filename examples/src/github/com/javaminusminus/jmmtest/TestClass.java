@@ -1,4 +1,4 @@
-package github.com.ricallinson.jmmtest;
+package github.com.javaminusminus.jmmtest;
 
 class TestClass {
 

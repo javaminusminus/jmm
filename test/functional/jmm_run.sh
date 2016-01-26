@@ -1,6 +1,6 @@
 #!/bin/bash
 source ../jmm.sh
-data=$(jmm run $JMMPATH/src/github/com/ricallinson/jmmrun/RunClass.java $JMMPATH/src/github/com/ricallinson/jmmrun/OtherClass.java)
+data=$(jmm run $JMMPATH/src/github/com/javaminusminus/jmmrun/RunClass.java $JMMPATH/src/github/com/javaminusminus/jmmrun/OtherClass.java)
 if [ "$data" = "Hello world." ]; then
 	exit 0
 fi
