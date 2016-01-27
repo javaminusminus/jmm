@@ -216,8 +216,8 @@ jmm_run_test() {
     # get all the files in the same directory.
     for file in $(find "$(dirname "$1")" -name "*.java"); do
         if [[ ! -d "$file" ]] && [[ "$file" != *"_test.java" ]]; then
-            files="$files $file"
-        fi
+            files="$files $file $(jmm_helper_resolve_imports "$file")"
+        fi 
     done
     # run the test.
     jmm_run $files

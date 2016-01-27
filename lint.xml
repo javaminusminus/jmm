@@ -31,7 +31,7 @@
             <property name="tokens" value="LITERAL_THROWS"/>
         </module>
         <module name="InnerAssignment"/>
-        <module name="MultipleStringLiterals"/>
+        <!-- <module name="MultipleStringLiterals"/> -->
         <module name="MultipleVariableDeclarations"/>
         <module name="OneStatementPerLine"/>
         <module name="OverloadMethodsDeclarationOrder"/>
