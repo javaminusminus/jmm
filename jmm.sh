@@ -32,6 +32,8 @@ LEGAL_PACKAGES=(            # https://docs.oracle.com/javase/8/docs/api/overview
     "java.math"             # https://docs.oracle.com/javase/8/docs/api/java/math/MathContext.html
     "java.net.ServerSocket" # https://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html
     "java.net.Socket"       # https://docs.oracle.com/javase/8/docs/api/java/net/Socket.html
+    "java.lang.reflect.Method"
+    "java.lang.reflect.InvocationTargetException"
 )
 
 #
