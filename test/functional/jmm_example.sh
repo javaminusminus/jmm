@@ -5,6 +5,7 @@ mkdir ./jmmtest
 cd ./jmmtest
 jmm here .
 jmm get github.com/javaminusminus/jmmexample
+jmm get github.com/javaminusminus/simplebdd
 jmm install ./src/github/com/javaminusminus/jmmexample
 data=$(jmmexample)
 cd ..

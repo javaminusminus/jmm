@@ -27,7 +27,7 @@
             <!-- http://checkstyle.sourceforge.net/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html -->
             <property name="tokens" value="ANNOTATION"/>
             <property name="tokens" value="ABSTRACT"/>
-            <property name="tokens" value="LITERAL_PROTECTED"/>
+            <property name="tokens" value="LITERAL_PRIVATE"/>
             <property name="tokens" value="LITERAL_THROWS"/>
         </module>
         <module name="InnerAssignment"/>

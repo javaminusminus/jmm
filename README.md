@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/javaminusminus/jmm.svg?branch=master)](https://travis-ci.org/javaminusminus/jmm)
 
+__UNSTABLE__
+
 This project started life as a joke after having coffee with a fellow engineer. Java-- is taking Java in a different direction by using highly opinionated choices as to what should or should not be used from the language. Java-- is not a new language, it's just a collection of tools that let you work with Java in a different way.
 
 ## Install
@@ -38,6 +40,7 @@ This example creates a Java-- workspace, gets the source code for a package, ins
 	cd ./jmmtest
 	jmm here .
 	jmm get github.com/javaminusminus/jmmexample
+	jmm test ./src/github/com/javaminusminus/jmmexample
 	jmm install ./src/github/com/javaminusminus/jmmexample
 	jmmexample
 

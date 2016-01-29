@@ -1,10 +1,10 @@
 #!/bin/bash
 source ../jmm.sh
-packageDir=$JMMPATH/src/github/com/javaminusminus/jmmimporttest
+packageDir=$JMMPATH/src/github/com/javaminusminus/jmmexample
 if [ -d $packageDir ]; then
 	rm -rf $packageDir
 fi
-jmm get github.com/javaminusminus/jmmimporttest
+jmm get github.com/javaminusminus/jmmexample
 if [ ! -d $packageDir ]; then
 	echo "Package was not downloaded."
 	exit 1
