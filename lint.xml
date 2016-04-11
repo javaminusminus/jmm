@@ -19,7 +19,6 @@
         <module name="OneTopLevelClass"/>
         <module name="ArrayTrailingComma"/>
         <module name="AvoidInlineConditionals"/>
-        <!-- <module name="DeclarationOrder"/> -->
         <module name="EmptyStatement"/>
         <module name="EqualsAvoidNull"/>
         <module name="IllegalCatch">
@@ -38,7 +37,6 @@
             <property name="tokens" value="GENERIC_START"/>
         </module>
         <module name="InnerAssignment"/>
-        <!-- <module name="MultipleStringLiterals"/> -->
         <module name="MultipleVariableDeclarations"/>
         <module name="OneStatementPerLine"/>
         <module name="OverloadMethodsDeclarationOrder"/>

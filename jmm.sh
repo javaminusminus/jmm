@@ -458,7 +458,6 @@ jmm_get() {
         if [[ ! -d "$JMMPATH/src/$packageDir" ]]; then
             # https://github.com/jminusminus/jmmexample
             git clone "https://$package.git" "$JMMPATH/src/$packageDir"
-            # jmm_install "$JMMPATH/src/$packageDir"
         fi
     done
     return 0
